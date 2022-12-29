@@ -66,11 +66,11 @@ li{
 
 .logo {
     display: flex;
-    justify-content: space-around;
-    margin: 50px 0 0 0;
+    justify-content: center;
+    margin: 50px 0 0 350px ;
 }
 .phone-btn{
-    display: flex;
+    float: left;
 }
 .phone{
     color: black;
@@ -179,31 +179,34 @@ color: black;
 }
 .all-product{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .product{
     width: 540px;
     height: 212px;
     background-color: #F13C6E;
-    margin-top: 100px;
+    margin-top: 40px;
     color: white;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 .complex{
-    margin-right: 90px;
+    float: left;
+    margin: 25px ;
 }
 .letter{
 margin-right: 30px; 
 }
 .img-letter{
+    float: right;
     width: 140px;
     height:140px ;
+    margin: 20px;
 }
 .img-car{
+    float: right;
     width: 190px;
-    height:140px ; 
+    height:140px ;
+    margin: 20px; 
 }
 .complex{
     display: block;
@@ -291,5 +294,50 @@ color: #828282;
 line-height: 28px;
 }
 .line{
-    color: EFEFEF;
+    color: #EFEFEF;
+}
+.bg{
+    background-image: url(img/Ellipse\ \(6\).png);
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+.bg-facebook{
+    width:19px;
+    height:26px;
+    position: absolute;
+    top: 8px;
+}
+.bg-insta{
+    position: absolute;
+    top: 11px; 
+    height: 21px;
+    width: 24px;
+}
+
+.logo div{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+ .logo a{ 
+    margin-left: 20px;
+}
+.row{
+    /* padding: 30px 20px o; */
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    background-color: #E5E5E5;
+    max-width: 1900px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 0;
+}
+.row p{
+    margin-top: 30px;
+}
+.btn-more{
+    color: white;
 }
