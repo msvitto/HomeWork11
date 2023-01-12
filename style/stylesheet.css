@@ -27,19 +27,3 @@
         url('Roboto/Roboto-Bold.woff2') format('woff2'),
         url('Roboto/Roboto-Bold.ttf') format('ttf');
     font-display: swap;}
-    
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    overflow-x: hidden;
-}
-a{
-    text-decoration: none;
-    color: initial;
-    list-style: none;
-}
-.container{
-    max-width: 1920px;
-}
-
